@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Welcome!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css"> <!-- eigenes stylesheet unter bootstrap um es überschreiben zu können-->
+</head>
+
+<body>
+  <!-- generell: sehr verschachteltes Layout dann bei weiteren htmls für einzelprojekte?
+       Unterspalte setzen= in altes div neue divs einbauen mit neuer aufteilung auf 12 spalten-->
+  <div class="container"><!-- Größe des containers richtet sich nach gerät-->
+    <section class="navbar">
+      <h1>Hier kommt ein cooler header hin</h1>
+    </section>
+    <section class="welcome">
+      <div class="row">
+        <div class="col col-md-12">
+          <p class="text-centered katze">Hey there, my name is Jana.
+            I am yet another graphic designer located in Berlin.
+             Scroll down to have a closer look into my world:</p>
+          <img src="img/katze.svg" alt="" >
+        </div>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col col-md-6">
+        <!-- media query: Iphone 4 width=320 px soll einspaltig sein-->
+      <a href="project6.html"><img src="img/fabian.jpg" alt=""></a>
+      </div>
+      <div class="col col-md-6">
+        <a href="project5.html"><img src="img/fuerte_1.jpg" alt=""></a>
+      </div>
+      <div class="col col-md-6">
+        <a href="project4.html"><img src="img/asia.jpg" alt=""></a>
+      </div>
+      <div class="col col-md-6">
+        <a href="project3.html"><img src="img/polaroids.jpeg" alt=""></a>
+      </div>
+      <div class="col col-md-6">
+      <a href="project2.html"><img src="img/f_w_2.jpeg" alt=""></a>
+      </div>
+      <div class="col col-md-6">
+      <a href="project1.html"><img src="img/f_w_3.jpeg" alt=""></a>
+      </div>
+    </section> <!-- ehemalig div, section besser für html struktur?-->
+    <!-- wenn Umbruch im Layout gewünscht: neues row-div anfangen-->
+    <footer class="row">
+      <div class="col col-md-8 text-muted">
+        <small>&copy;Jana Staltmayer 2017</small>
+      </div>
+      <div class="col col-md-4 text-muted">
+        <ul>
+          <li><small>Based in Berlin</small></li>
+          <li><small>jana.staltmayer@outlook.com</small></li>
+        </ul>
+      </div>
+    </footer>
+  </div> <!-- ende container -->
+
+  <!-- Javascript einbinden, Ende des Dokuments = bessere Lesbarkeit -->
+  <script src="//code.jquery.com.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

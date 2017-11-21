@@ -7,10 +7,29 @@ img {
   width: 80%;
 }
 
-footer li{
+footer li {
   list-style: none;
 }
 
-a img{
+a img {}
 
+.landingpage {
+  top: 0;
+  position: fixed;
+  margin: 0;
+}
+
+.text-center {
+  position: relative;
+  top: 225px;
+}
+
+.headline {
+  font-size: 61pt;
+}
+
+.katze {
+  position: relative;
+  top: 470px;
+  font-size: 12pt;
 }

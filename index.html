@@ -7,59 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css"> <!-- eigenes stylesheet unter bootstrap um es überschreiben zu können-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- eigenes stylesheet unter bootstrap um es überschreiben zu können-->
 </head>
 
 <body>
-  <!-- generell: sehr verschachteltes Layout dann bei weiteren htmls für einzelprojekte?
-       Unterspalte setzen= in altes div neue divs einbauen mit neuer aufteilung auf 12 spalten-->
-  <div class="container"><!-- Größe des containers richtet sich nach gerät-->
-    <section class="navbar">
-      <h1>Hier kommt ein cooler header hin</h1>
-    </section>
-    <section class="welcome">
-      <div class="row">
-        <div class="col col-md-12">
-          <img src="img/stripes.jpg" alt="" >
-        </div>
-      </div>
-    </section>
-    <section class="row">
-      <div class="col col-md-6">
-        <!-- media query: Iphone 4 width=320 px soll einspaltig sein-->
-      <a href="project6.html"><img src="img/fabian.jpg" alt=""></a>
-      </div>
-      <div class="col col-md-6">
-        <a href="project5.html"><img src="img/fuerte_1.jpg" alt=""></a>
-      </div>
-      <div class="col col-md-6">
-        <a href="project4.html"><img src="img/asia.jpg" alt=""></a>
-      </div>
-      <div class="col col-md-6">
-        <a href="project3.html"><img src="img/polaroids.jpeg" alt=""></a>
-      </div>
-      <div class="col col-md-6">
-      <a href="project2.html"><img src="img/f_w_2.jpeg" alt=""></a>
-      </div>
-      <div class="col col-md-6">
-      <a href="project1.html"><img src="img/f_w_3.jpeg" alt=""></a>
-      </div>
-    </section> <!-- ehemalig div, section besser für html struktur?-->
-    <!-- wenn Umbruch im Layout gewünscht: neues row-div anfangen-->
-    <footer class="row">
-      <div class="col col-md-8 text-muted">
-        <small>&copy;Jana Staltmayer 2017</small>
-      </div>
-      <div class="col col-md-4 text-muted">
-        <ul>
-          <li><small>Based in Berlin</small></li>
-          <li><small>jana.staltmayer@outlook.com</small></li>
-        </ul>
-      </div>
-    </footer>
-  </div> <!-- ende container -->
-
-  <!-- Javascript einbinden, Ende des Dokuments = bessere Lesbarkeit -->
+  <a href="work.html">
+    <div class="row">
+    <div class="col col-md-12">
+      <h1 class="text-center headline">Welcome to the jungle</h1>
+      <h1 class="text-center">click anywhere to enter</h1>
+      <!-- NOT RESPONSIVE YET!!!!!!-->
+      <img src="img/website_landingpage.svg" alt="" class="img-responsive landingpage">
+    </div>
+  </div>
+</a>
   <script src="//code.jquery.com.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
