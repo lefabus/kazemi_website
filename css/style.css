@@ -77,7 +77,7 @@ img {
 /* work-page overlay-effekt */
 
 .overlay {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left:100%;
   right: 0;
@@ -88,7 +88,7 @@ img {
   transition: 2s ease;
 }
 
-.projects:hover .overlay{
+a:hover .overlay{
   width: 100%;
   left: 0;
 }
@@ -103,4 +103,31 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   -m-transform: translate(-50%, -50%);
+}
+
+.overlay-fade {
+position: relative; /* Bilder nicht mehr sichtbar???*/
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: 1s ease;
+background-color: red;
+}
+
+a:hover .overlay-fade {
+  opacity: .5;
+}
+
+.overlay-fade-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
